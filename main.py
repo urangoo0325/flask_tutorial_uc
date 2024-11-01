@@ -11,8 +11,8 @@ def about():
 
 @app.route('/news')
 def news():
-    return render_template('news.html')   
-
+    return render_template('news.html')
+# i am testing github
 @app.route('/form', methods=['GET', 'POST'])
 def form():
     message = ''
